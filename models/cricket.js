@@ -27,7 +27,7 @@ const Cricket = sequelize.define('cricket', {
     allowNull: false
   },
   career: {
-    type: Sequelize.STRING,
+    type: Sequelize.TEXT,
     allowNull: false
   },
   matches: {
